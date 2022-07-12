@@ -30,6 +30,7 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin: 0;
 }
 
 .header,
@@ -60,6 +61,7 @@ a {
     flex: 1;
     padding-top: 40px;
     padding-bottom: 40px;
+    gap: 80px;
 }
 
 .section2 {
@@ -80,6 +82,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: 18px;
+    color:#E5E7EB;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .logo {
