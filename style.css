@@ -2,8 +2,53 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
 .body {
     display: flex;
     flex-direction: column;
     flex: 1;
+}
+
+.hero-img {
+    width: 400px;
+    height: auto;
+}
+
+.imgs {
+    width: 150px;
+    height: auto;
+}
+
+.header,
+.footer,
+.section1 {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section3 {
+    background-color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: 20px;
 }
